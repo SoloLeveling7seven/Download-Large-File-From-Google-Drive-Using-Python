@@ -29,5 +29,5 @@ def save_response_content(response, destination):
             if chunk: # filter out keep-alive new chunks
                 f.write(chunk)
 file_id = '1baaiKAk1KlTfnO3T3wI42cRwGVVBsMuF'
-destination = '/home/black.mkv'
+destination = '/home/myusername/work/myfile.ext'
 download_file_from_google_drive(file_id, destination)
